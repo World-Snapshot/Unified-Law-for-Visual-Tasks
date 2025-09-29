@@ -1,12 +1,14 @@
 # Unified-Law-for-Visual-Tasks
 
-**"Unified Law for Visual Tasks"**, also known as **"The Four Laws of Computer Vision"**, is a technique that uses the simplest concepts to unify visual tasks. Physically, "encoding all information onto the surface of the world + conformal symmetry" flattens the world into a two-dimensional space, and visual generation is almost lossless world generation. 
+**"Unified Law for Visual Tasks"**, also known as **"The Four Laws of Computer Vision"**, is a technique that uses the simplest concepts to unify visual tasks. Physically, "encoding all information onto the surface of the world + conformal symmetry" -- flattens the world into a two-dimensional space, and visual generation is almost lossless world generation. 
 
 This theory is equivalent to "predicting the next token will enable the model to understand a book, if it always correctly interprets/answers". However, you need some skills to convert all tasks into generation tasks. Because visuals do not have an easily obtainable answer like in the "Prompt-Answer" structure (The simplest training data structure). 
 
 Next, we will describe to you, using both pictures and words (maybe nano code), why all tasks can be transformed into a generating form:
 
 ## Background
+
+The earliest concept of this part was released in the ["discussion"](https://github.com/orgs/World-Snapshot/discussions/1) section.
 
 The ordinary generation process goes from noise to RGB, that is, from A to M. However, our generation can be regarded as going from A to MN, where N represents additional information. 
 
