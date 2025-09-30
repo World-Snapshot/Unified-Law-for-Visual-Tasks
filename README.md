@@ -8,7 +8,7 @@ Next, we will describe to you, using both pictures and words (maybe nano code), 
 
 ## Background
 
-*The earliest concept of this part was released in the ["discussion"](https://github.com/orgs/World-Snapshot/discussions/1) section.*
+*The earliest concept of this part was released in the ["The Discussion: Answer questions from Computer Vision researchers"](https://github.com/orgs/World-Snapshot/discussions/1) section.*
 
 The ordinary generation process goes from noise to RGB, that is, from A to M. However, our generation can be regarded as going from A to MN, where N represents additional information. 
 
