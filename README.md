@@ -31,6 +31,6 @@ You can refer to these formulas as the **"Unified Law for Visual Tasks"** or **"
 
 ## Implementation
 
-Our main proof and implementation are in [wave2pixel](https://github.com/orgs/World-Snapshot/wave2pixel), and the demonstration is in [ControlWave](https://github.com/orgs/World-Snapshot/ControlWave). 
+Our main proof and implementation are in [wave2pixel](https://github.com/World-Snapshot/wave2pixel), and the demonstration is in [ControlWave](https://github.com/World-Snapshot/ControlWave). 
 
 The nano demonstration will be updated later.
