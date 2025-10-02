@@ -16,7 +16,7 @@ Then our estimation can be regarded as going from M to A in reverse, and then pe
 
 Then, in a broader sense, we use RGB as a condition to obtain other information. At this time, **the estimation task = condition control**. **The recognition task based on RGB = a special condition task**. So, if we replace RGB with other channels, we get **condition control = generation task based on conditions**. 
 
-To sum up, our derivation process is: 
+To sum up, our answers of derivation process are: 
 
 - **previous Generating = Generate RGB channels from text output**
 - **previous Estimation (understand, detect, segment) = Generate additional information from RGB channels**
