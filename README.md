@@ -30,3 +30,7 @@ Their function is to inform people: 1. How the generated knowledge of the model 
 You can refer to these formulas as the **"Unified Law for Visual Tasks"** or **"The Four Laws of Computer Vision"**
 
 ## Implementation
+
+Our main proof and implementation are in [wave2pixel](https://github.com/orgs/World-Snapshot/wave2pixel), and the demonstration is in [ControlWave](https://github.com/orgs/World-Snapshot/ControlWave). 
+
+The nano demonstration will be updated later.
