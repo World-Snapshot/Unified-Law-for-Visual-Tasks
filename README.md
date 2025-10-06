@@ -10,9 +10,10 @@ Next, we will describe to you, using both pictures and words (maybe nano code), 
 
 *The earliest concept of this part was released in the ["The Discussion: Answer questions from Computer Vision researchers"](https://github.com/orgs/World-Snapshot/discussions/1) section.*
 
-The ordinary generation process goes from noise to RGB, that is, from A to M. However, our generation can be regarded as going from A to MN, where N represents additional information. 
-
-Then our estimation can be regarded as going from M to A in reverse, and then performing the process from A to MN again. Do you understand? In our view, if you want to achieve unified generation comprehension, your generation should be equal to comprehension/estimation, and both tasks should be accomplished simultaneously. 
+1. **The Premise:** (advantages of the new format): The ordinary generation process goes from noise to RGB, that is, from A to M. However, our generation can be regarded as going from A to MN, where N represents additional information. 
+2. **Crucial observation:** If we consider completing WSG from RGB as an estimation task, and in order to convert the estimation into generation, we should focus on the generation capability. Then, we should think of a way to generate again without changing the RGB.
+3. **Prior knowledge:** The RF model can precisely restore RGB back to noise, but no one has figured out what the use of this is yet. Many people use it for image/video editing, which has contributed to the emergence of more powerful prompt generative models at present.
+4. **Deduction:** Then our estimation can be regarded as going from M to A in reverse, and then performing the process from A to MN again. Do you understand? In our view, if you want to achieve unified generation comprehension, your generation should be equal to comprehension/estimation, and both tasks should be accomplished simultaneously. 
 
 Then, in a broader sense, we use RGB as a condition to obtain other information. At this time, **the estimation task = condition control**. **The recognition task based on RGB = a special condition task**. So, if we replace RGB with other channels, we get **condition control = generation task based on conditions**. 
 
