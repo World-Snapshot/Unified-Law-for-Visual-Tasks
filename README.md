@@ -6,7 +6,7 @@ This theory is equivalent to "predicting the next token will enable the model to
 
 Next, we will describe to you, using both pictures and words (maybe nano code), why **all tasks can be transformed into a generating form**:
 
-## Background
+## Method
 
 *The earliest concept of this part was released in the ["The Discussion: Answer questions from Computer Vision researchers"](https://github.com/orgs/World-Snapshot/discussions/1) section.*
 
