@@ -4,7 +4,7 @@
 
 This theory is equivalent to "predicting the next token will enable the model to understand a book, if it always correctly interprets/answers". However, you need some skills to convert all tasks into generation tasks. Because visuals do not have an easily obtainable answer like in the "Prompt-Answer" structure (The simplest training data structure). 
 
-Next, we will describe to you, using both pictures and words (maybe nano code), why all tasks can be transformed into a generating form:
+Next, we will describe to you, using both pictures and words (maybe nano code), why **all tasks can be transformed into a generating form**:
 
 ## Background
 
