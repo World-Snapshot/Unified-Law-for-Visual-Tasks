@@ -15,7 +15,7 @@ Next, we will describe to you, using both pictures and words (maybe nano code), 
 3. **Prior knowledge:** The RF model can precisely restore RGB back to noise, but no one has figured out what the use of this is yet. Many people use it for image/video editing, which has contributed to the emergence of more powerful prompt generative models at present.
 4. **Deduction:** Then our estimation can be regarded as going from M to A in reverse, and then performing the process from A to MN again. Do you understand? In our view, if you want to achieve unified generation comprehension, your generation should be equal to comprehension/estimation, and both tasks should be accomplished simultaneously. 
 
-Then, in a broader sense, we use RGB as a condition to obtain other information. At this time, **the estimation task = condition control**. **The recognition task based on RGB = a special condition task**. So, if we replace RGB with other channels, we get **condition control = generation task based on conditions**. 
+Then, in a broader sense, we use RGB as a condition to obtain other information. At this time, **the estimation task = condition control**. **The recognition task based on RGB = a special condition task**. So, if we replace RGB with other channels, we get **condition control = RGB generation task based on conditions**. 
 
 To sum up, our answers of derivation process are: 
 
