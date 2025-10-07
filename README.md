@@ -27,7 +27,7 @@ Therefore, we can say that **all previous computer vision tasks were special cas
 
 Their function is to inform people: 1. How the generated knowledge of the model can be utilized for understanding without re-training/add-dev. 2. How to theoretically unify all 2D visual tasks (Generating, Conditional Control, Estimation) and incorporate them into an interpretable framework. 3. LLM can unify everything into the *Prompt-Answer* format. Then our rules can uniformly transform all CV tasks into a generation form.
 
-> What distinguishes us from the previous bidirectional models is that the previous bidirectional models were generally equivalent to training twice / parameters could not be reused / generation could not fully assist in understand. But for us, any form is generation. The stronger the generation ability is, the stronger the other abilities such as understanding, estimation, condition control, segmentation, and detection tasks will be.
+> What distinguishes us from the previous bidirectional models is that the previous bidirectional models were generally equivalent to training twice / parameters could not be reused / generation could not fully assist in understand. But for us, any form is generation. The stronger the generation ability is, the stronger the other abilities such as understanding, estimation, condition control, segmentation, and detection tasks will be. -- [Some random thoughts: 2th](https://github.com/orgs/World-Snapshot/discussions/1)
 
 You can refer to these formulas as the **"Unified Law for Visual Tasks"** or **"The Four Laws of Computer Vision"**
 
