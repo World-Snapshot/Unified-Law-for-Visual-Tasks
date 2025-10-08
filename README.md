@@ -1,6 +1,6 @@
 # Unified-Law-for-Visual-Tasks
 
-**"Unified Law for Visual Tasks"**, also known as **"The Four Laws of Computer Vision"**, is a technique that uses the simplest concepts to unify visual tasks. Physically/World Snapshot Methodology, "encoding all information onto the surface of the world + conformal symmetry" -- flattens the world into a two-dimensional space, and visual generation is almost lossless world generation. 
+**"Unified Law for Visual Tasks"**, also known as **"The Four Laws of Computer Vision"**, is a technique that uses the simplest concepts to unify visual tasks. Physically, "encoding all information onto the surface of the world + conformal symmetry" -- flattens the world into a two-dimensional space, and visual generation is almost lossless world generation (World Snapshot Methodology). 
 
 This theory is equivalent to "predicting the next token will enable the model to understand a book, if it always correctly interprets/answers". However, you need some skills to convert all tasks into generation tasks. Because visuals do not have an easily obtainable answer like in the "Prompt-Answer" structure (The simplest training data structure): *You must come up with a way to fully utilize the encoded information in wsg. If you can't find a method to convert all tasks into a generative form, then you will have to train four kind of models separately using the wsg files.*
 
