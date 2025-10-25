@@ -31,6 +31,10 @@ Their function is to inform people: 1. How the generated knowledge of the model 
 
 You can refer to these formulas as the **"Unified Law for Visual Tasks"** or **"The Four Laws of Computer Vision"**
 
+## Knowledge related to physics
+
+You can search for ["Physical Holographic Principle"](https://en.wikipedia.org/wiki/Holographic_principle) to obtain: 1. How our World Snapshot Model theory is supported by physics. 2. Information about surface area and the transformation of world information.
+
 ## Implementation
 
 Our main proof and implementation are in [wave2pixel](https://github.com/World-Snapshot/wave2pixel), and the demonstration is in [ControlWave](https://github.com/World-Snapshot/ControlWave). 
