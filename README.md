@@ -37,6 +37,6 @@ You can search for ["Physical Holographic Principle"](https://en.wikipedia.org/w
 
 ## Implementation
 
-Our main proof and implementation are in [wave2pixel](https://github.com/World-Snapshot/wave2pixel), and the demonstration is in [ControlWave](https://github.com/World-Snapshot/ControlWave). 
+Our main proof and implementation are in [WSMs](https://github.com/World-Snapshot/WSMs), and the demonstration is in [ControlWave](https://github.com/World-Snapshot/ControlWave). 
 
 The nano demonstration will be updated later.
