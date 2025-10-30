@@ -1,6 +1,6 @@
 # Unified-Law-for-Visual-Tasks
 
-**"Unified Law for Visual Tasks"**, also known as **"The Four Laws of Computer Vision"**, is a technique that uses the simplest concepts to unify visual tasks. Physically, "encoding all information onto the surface of the world + conformal symmetry" -- flattens the world into a two-dimensional space, and visual generation is almost lossless world generation. 
+**"Unified Law for Visual Tasks"**, also known as **"The Four Laws of Computer Vision"**, is a technique that uses the simplest concepts to unify visual tasks. Physically, ["encoding all information onto the surface of the world + conformal symmetry"](https://link.springer.com/article/10.1023/A:1026654312961) -- flattens the world into a two-dimensional space, and visual generation is almost lossless world generation. 
 
 This theory is equivalent to "predicting the next token will enable the model to understand a book, if it always correctly interprets/answers". However, you need some skills to convert all tasks into generation tasks. Because visuals do not have an easily obtainable answer like in the "Prompt-Answer" structure (The simplest training data structure): *You must come up with a way to fully utilize the encoded information in wsg. If you can't find a method to convert all tasks into a generative form, then you will have to train four kind of models separately using the wsg files.*
 
@@ -33,7 +33,9 @@ You can refer to these formulas as the **"Unified Law for Visual Tasks"** or **"
 
 ## Knowledge related to physics
 
-You can search for ["Physical Holographic Principle"](https://en.wikipedia.org/wiki/Holographic_principle) to obtain: 1. How our World Snapshot Model theory is supported by physics. 2. Information about surface area and the transformation of world information.
+You can search for ["Physical Holographic Principle"](https://en.wikipedia.org/wiki/Holographic_principle) to obtain: 1. How our World Snapshot Model theory is supported by [physics](https://link.springer.com/article/10.1023/A:1026654312961) (This is the [most frequently cited](https://en.wikipedia.org/wiki/Holographic_principle#AdS/CFT_correspondence) article in the field of high-energy physics). 2. Information about surface area and the [transformation](https://en.wikipedia.org/wiki/Holographic_principle#Limit_on_information_density) of world information.
+
+Overall, energy, matter and information are somehow equivalent. The volume of the universe may not exist. Completeness can be fully represented by a lower-dimensional hologram. Or, the essence of an image is no different from that of a world one dimension higher. They are inherently the same.
 
 ## Implementation
 
