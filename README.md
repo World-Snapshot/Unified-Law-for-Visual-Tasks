@@ -26,7 +26,7 @@ To sum up, our answers of derivation process are:
 <details>
 <summary>Another expression of the Unified Law</summary>
 
-- **previous Generation: From Text to RGB**
+- **previous Generating: From Text to RGB**
 - **previous Estimation (understand, detect, segment): From RGB to Additional Information**
 - **previous Condition control: From Additional Information to RGB**
 - **previous Reconstruction: From RGB to Organized Shape Information**
