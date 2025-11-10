@@ -21,7 +21,7 @@ To sum up, our answers of derivation process are:
 - **previous  Generating = Generate RGB channels from text output**
 - **previous  Estimation (understand, detect, segment) = Generate additional information from RGB channels**
 - **previous  Conditional Control = Generate RGB from additional information channels**
-- **previous  Reconstruction = Generate shape information from RGB channels** (If you do not use the core space, then it is an implicit reconstruction)
+- **previous  Reconstruction = Generate shape information from RGB channels** (If you do not use the core space, then it is an [RIVE](https://world-snapshot.github.io/doc/index.html?page=S5_blogs/00_world_model.md#definition) reconstruction)
 
 Therefore, we can say that **all previous computer vision tasks were special cases of the world snapshot model tasks**. In fact, we should estimate the material from color, estimate the roughness from the material, estimate the 3D human body from the 2D human skeleton, and estimate the rendered result from the Mesh. Any possible 256*256 scenario should be achievable, this will enable Computer Vision to expand countless times compared to before.
 
