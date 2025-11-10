@@ -26,10 +26,10 @@ To sum up, our answers of derivation process are:
 <details>
 <summary>Another expression of the Unified Law</summary>
 
-- **previous Generating: From Text to RGB**
-- **previous Estimation (understand, detect, segment): From RGB to Additional Information**
-- **previous Condition control: From Additional Information to RGB**
-- **previous Reconstruction: From RGB to Organized Shape Information**
+- **previous Generating: A generation process that From Text to RGB**
+- **previous Estimation (understand, detect, segment): A generation process that From RGB to Additional Information**
+- **previous Condition control: A generation process that From Additional Information to RGB**
+- **previous Reconstruction: A generation process that From RGB to Organized Shape Information**
 
 All the visual tasks are actually generating tasks.
 
