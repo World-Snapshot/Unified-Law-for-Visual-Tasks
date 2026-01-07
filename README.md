@@ -18,18 +18,18 @@ Next, we will describe to you, using both pictures and words (maybe nano code), 
 
 To sum up, our answers of derivation process are: 
 
-- **previous  Generating = Generate RGB channels from Text output**
-- **previous  Estimation (understand, detect, segment) = Generate Additional Information from RGB channels**
-- **previous  Conditional Control = Generate RGB from Additional Information channels**
-- **previous  Reconstruction = Generate Organized Shape Information from RGB channels** (If you do not use the core space, then it is not an [RIVE](https://world-snapshot.github.io/doc/index.html?page=S5_blogs/00_world_model.md#definition) reconstruction)
+- **(Lex. I.) previous  Generating = Generate RGB channels from Text output**
+- **(Lex. II.) previous  Estimation (understand, detect, segment) = Generate Additional Information from RGB channels**
+- **(Lex. III.) previous  Conditional Control = Generate RGB from Additional Information channels**
+- **(Lex. IV.) previous  Reconstruction = Generate Organized Shape Information from RGB channels** (If you do not use the core space, then it is not an [RIVE](https://world-snapshot.github.io/doc/index.html?page=S5_blogs/00_world_model.md#definition) reconstruction)
 
 <details>
 <summary>Another expression of the Unified Law</summary>
 
-- **previous Generating: A generation process that From Text to RGB**
-- **previous Estimation (understand, detect, segment): A generation process that From RGB to Additional Information**
-- **previous Condition control: A generation process that From Additional Information to RGB**
-- **previous Reconstruction: A generation process that From RGB to Organized Shape Information**
+- **(Lex. I.) previous Generating: A generation process that From Text to RGB**
+- **(Lex. II.) previous Estimation (understand, detect, segment): A generation process that From RGB to Additional Information**
+- **(Lex. III.) previous Condition control: A generation process that From Additional Information to RGB**
+- **(Lex. IV.) previous Reconstruction: A generation process that From RGB to Organized Shape Information**
 
 All the visual tasks are actually generating tasks.
 
