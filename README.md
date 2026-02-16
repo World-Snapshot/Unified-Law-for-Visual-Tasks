@@ -54,3 +54,9 @@ Overall, Physical scientists believe energy, matter and information are somehow 
 Our main proof and implementation are in [WSMs](https://github.com/World-Snapshot/WSMs), and the demonstration is in [ControlWave](https://github.com/World-Snapshot/ControlWave). 
 
 The nano demonstration will be updated later.
+
+## Discussion
+
+- During our development process, we gradually realized that the transition from visual information to textual information is a process from low-level abstract information to high-level abstract information. Just like how MSE gradually transforms into CE Loss. 
+- In practical visual applications, the mutual conversion between low-dimensional, low-channel, and highly abstract latent representations (SD VAE) is more appropriately carried out in a predictive manner (the results of the text also confirm this); while high-dimensional, high-channel, and low-abstraction latent representations (Flux VAE, RAE) are more suitable for mutual conversion and translation in the form of conditional image generation and masking. 
+- Therefore, the visual and textual elements are theoretically unified. This falls under the extension of our visual unified laws.
