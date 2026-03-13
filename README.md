@@ -51,10 +51,15 @@ Overall, Physical scientists believe energy, matter and information are somehow 
 
 ## Discussion
 
+**1. The different modalities have different manifolds, and the degree of abstraction of the same data can also vary:**
 - During our development process, we gradually realized that the transition from visual information to textual information is a process from low-level abstract information to high-level abstract information. Just like how MSE gradually transforms into CE Loss. 
 - In practical visual applications, the mutual conversion between low-dimensional, low-channel, and highly abstract latent representations (SD VAE) is more appropriately carried out in a predictive manner (the results of the text also confirm this); while high-dimensional, high-channel, and low-abstraction latent representations (Flux VAE, RAE) are more suitable for mutual conversion and translation in the form of conditional image generation and masking. 
 - Therefore, the visual and textual elements are theoretically unified. This falls under the extension of our visual unified laws: For instance, if you decide to use more low-level abstract variables as your target for generation, this to some extent shifts the pressure of VAE onto the generation process. Considering that the generation model is quite powerful, it is generally beneficial. Suppose we consider visual information as high-channel and high-abstraction things, it is like tokens that need to be trained with the CE Loss. At this time, perhaps the more abstract, the better, provided that there is sufficient data. VAE is equivalent to a tokenizer.
 - Based on our experience, there is no explicit connection path available between data of different levels of abstraction. This is another essential difference between visual and textual forms, and even the reason for the reason in any modality. I call this the principle of modal incompatibility.
+
+**2. The interaction of modalities has inherent limitations:**
+- The text can precisely narrow down the scope of the target manifold, thus being beneficial for generation. This is also the reason why methods like noise addition and noise removal, which involve distribution prediction, are successful. Without the text, the difficulty would increase significantly. Therefore, weak conditions have to be used for generation.
+- Strong condition information (modal information) is difficult to be supervised in this situation. If it is from RGB to Depth, the difficulty will be a little lower. If it is from Depth to RGB, without the control of text, it is almost impossible to train merely from the perspective of velocity field.
 
 ## Implementation
 
