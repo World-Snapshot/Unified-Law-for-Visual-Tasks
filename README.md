@@ -69,6 +69,11 @@ Overall, Physical scientists believe energy, matter and information are somehow 
 - The text can precisely narrow down the scope of the target manifold, thus being beneficial for generation. This is also the reason why methods like noise addition and noise removal, which involve distribution prediction, are successful. Without the text, the difficulty would increase significantly. Therefore, weak conditions have to be used for generation.
 - Strong condition information (modal information) is difficult to be supervised in this situation. If it is from RGB to Depth, the difficulty will be a little lower. If it is from Depth to RGB, without the control of text, it is almost impossible to train merely from the perspective of velocity field.
 
+**3. The reasons for the different major divisions:**
+- The visual, linguistic and audio domains are collectively referred to as "big categories" because their modal spaces are heterogeneous and the positions within them are different. Moreover, they can all be addressed using generative methods for their primary tasks, and in the future, they can also be unified by generative methods. 
+- The basic capability of the visual model is generally RGB generation, which is a narrow form of generation. Generalized visual generation can be trained, but it is not necessary because it can be achieved through visual chains (completely new modalities such as audio are why they are called the audio domain.) 
+- Reconstruction is a special case of estimation; re-rendering is a special case where the conditions are controlled (RGB and conditions are used as inputs, not just conditions and text); similar spatial structure modes (visual) can be converted into each other; A + RGB estimates B is inverse rendering.
+
 ## Implementation
 
 Our main proof and implementation are in [WSMs](https://github.com/World-Snapshot/WSMs), and the demonstration is in [ControlWorld](https://github.com/World-Snapshot/ControlWorld). 
