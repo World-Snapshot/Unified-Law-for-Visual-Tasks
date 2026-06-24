@@ -72,7 +72,7 @@ Overall, Physical scientists believe energy, matter and information are somehow 
 **3. The reasons for the different major divisions:**
 - The visual, linguistic and audio domains are collectively referred to as "big categories" because their modal spaces are heterogeneous and the positions within them are different. Moreover, they can all be addressed using generative methods for their primary tasks, and in the future, they can also be unified by generative methods. 
 - The basic capability of the visual model is generally RGB generation, which is a narrow form of generation. Generalized visual generation can be trained, but it is not necessary because it can be achieved through visual chains (completely new modalities such as audio are why they are called the audio domain.) 
-- Reconstruction is a special case of estimation; re-rendering is a special case where the conditions are controlled (RGB and conditions are used as inputs, not just conditions and text); similar spatial structure modes (visual) can be converted into each other; A + RGB estimates B is inverse rendering.
+- Reconstruction is a special case of estimation; re-rendering is a special case of conditions control (RGB and conditions are used as inputs, not just conditions and text); similar spatial structure modes (visual) can be converted into each other; A + RGB estimates B is inverse rendering.
 
 ## Implementation
 
