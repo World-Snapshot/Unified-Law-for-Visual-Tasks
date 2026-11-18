@@ -5,10 +5,11 @@
 This theory is equivalent to "predicting the next token will enable the model to understand a book, if it always correctly interprets/answers". However, you need some skills to convert all tasks into generation tasks. Because visuals do not have an easily obtainable answer like in the "Prompt-Answer" structure (The simplest training data structure): *You must come up with a way to fully utilize the encoded information in wsg. If you can't find a method to convert all tasks into a generative form, then you will have to train four kind of models separately using the wsg files.*
 
 ```code
-@software{Fang_Unified_Law_for_Visual_Tasks,
-author = {Fang, Sen},
-title = {{Unified Law for Visual Tasks (The Four Laws of Computer Vision)}},
-url = {https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks}
+@article{WorldSnapshot2026,
+  author  = {Sen Fang and Yalin Feng and Yancheng Zhang and Yanxin Zhang and Zonglin Lyu and Hongbin Zhong and Liwei Che and Rui Wu and Chen Chen and Dimitris N. Metaxas},
+  title   = {Unified Law for Visual Tasks (The Four Laws of Computer Vision)},
+  journal = {arXiv},
+  year    = {2026}
 }
 ```
 
