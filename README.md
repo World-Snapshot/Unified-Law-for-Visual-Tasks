@@ -80,3 +80,22 @@ Overall, Physical scientists believe energy, matter and information are somehow 
 Our main proof and implementation are in [WSMs](https://github.com/World-Snapshot/WSMs), and the demonstration is in [ControlWorld](https://github.com/World-Snapshot/ControlWorld). 
 
 The nano demonstration will be updated later.
+
+## Attribution and Citation
+
+This repository presents the Unified Law for Visual Tasks and the Four Laws
+of Computer Vision. If you use or discuss this work, please cite the
+associated paper using [`CITATION.cff`](CITATION.cff) or the BibTeX entry
+above.
+
+## License
+
+Unless a file states otherwise, the original tutorial text, documentation,
+and figures in this repository are licensed under the
+[Creative Commons Attribution 4.0 International License](LICENSE).
+
+This license covers the expression and presentation contained in this
+repository. It does not restrict the underlying scientific ideas, principles,
+or laws, and it does not grant patent rights in any software, model, or other
+implementation. WSMs, ControlWorld, linked software, and third-party materials
+remain governed by their own licenses.

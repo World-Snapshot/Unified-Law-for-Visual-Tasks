@@ -1,5 +1,6 @@
 cff-version: 1.2.0
 message: "If you use or refer to my concept, please cite it as below."
+type: article
 authors:
   - family-names: "Fang"
     given-names: "Sen"
@@ -7,3 +8,5 @@ authors:
 title: "Unified Law for Visual Tasks (The Four Laws of Computer Vision)"
 date-released: 2026
 url: "https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks"
+repository-code: "https://github.com/World-Snapshot/Unified-Law-for-Visual-Tasks"
+license: CC-BY-4.0
