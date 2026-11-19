@@ -1,15 +1,18 @@
 # Unified-Law-for-Visual-Tasks
 
-**"Unified Law for Visual Tasks"**, also known as **"The Four Laws of Computer Vision"**, is a technique that uses the simplest concepts to unify visual tasks. Physically, ["encoding all information onto the surface of the world + conformal symmetry"](https://link.springer.com/article/10.1023/A:1026654312961) -- flattens the world into a two-dimensional space, and visual generation is almost lossless world generation<sup title="This is the methodology and motivation of our world snapshot model">1</sup>.
+**["Unified Law for Visual Tasks"](https://arxiv.org/abs/2611.24917)**, also known as **"The Four Laws of Computer Vision"**, is a technique that uses the simplest concepts to unify visual tasks. Physically, ["encoding all information onto the surface of the world + conformal symmetry"](https://link.springer.com/article/10.1023/A:1026654312961) -- flattens the world into a two-dimensional space, and visual generation is almost lossless world generation<sup title="This is the methodology and motivation of our world snapshot model">1</sup>.
 
 This theory is equivalent to "predicting the next token will enable the model to understand a book, if it always correctly interprets/answers". However, you need some skills to convert all tasks into generation tasks. Because visuals do not have an easily obtainable answer like in the "Prompt-Answer" structure (The simplest training data structure): *You must come up with a way to fully utilize the encoded information in wsg. If you can't find a method to convert all tasks into a generative form, then you will have to train four kind of models separately using the wsg files.*
 
 ```code
-@article{WorldSnapshot2026,
-  author  = {Sen Fang and Yalin Feng and Yancheng Zhang and Yanxin Zhang and Zonglin Lyu and Hongbin Zhong and Liwei Che and Rui Wu and Chen Chen and Dimitris N. Metaxas},
-  title   = {Unified Law for Visual Tasks (The Four Laws of Computer Vision)},
-  journal = {arXiv},
-  year    = {2026}
+@misc{fang2026unifiedlawvisualtasks,
+      title={Unified Law for Visual Tasks (The Four Laws of Computer Vision)}, 
+      author={Sen Fang and Yalin Feng and Yancheng Zhang and Yanxin Zhang and Zonglin Lyu and Hongbin Zhong and Liwei Che and Rui Wu and Chen Chen and Dimitris N. Metaxas},
+      year={2026},
+      eprint={2611.24917},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2611.24917}, 
 }
 ```
 
@@ -74,6 +77,12 @@ Overall, Physical scientists believe energy, matter and information are somehow 
 - The visual, linguistic and audio domains are collectively referred to as "big categories" because their modal spaces are heterogeneous and the positions within them are different. Moreover, they can all be addressed using generative methods for their primary tasks, and in the future, they can also be unified by generative methods. 
 - The basic capability of the visual model is generally RGB generation, which is a narrow form of generation. Generalized visual generation can be trained, but it is not necessary because it can be achieved through visual chains (completely new modalities such as audio are why they are called the audio domain.) 
 - Reconstruction is a special case of estimation; re-rendering is a special case of conditions control (RGB and conditions are used as inputs, not just conditions and text); similar spatial structure modes (visual) can be converted into each other; A + RGB estimates B is inverse rendering.
+
+**4. How to Utilize Unified Law:**
+
+- To enhance the generalization ability of the representation or generation process. Many people believe that representation is important, but this statement is only partially correct. The model stores the corresponding knowledge or has already understood the corresponding knowledge, but this does not mean that it can effectively master the existing input-output logic. In my opinion, you not only need to encode more knowledge, but also need to learn more knowledge. You should also expand your generation process significantly so that this generation process can be applied to more of this information.
+- For example, in the Omini model, any modality can be used as input and can output any modality. However, the fact that it can output some text does not mean it can output the direct action to control the robot. Because the generated path does not contain similar operations. This is effective, but the effect may not be significant.
+- As described in the Unified Law paper, before training, you can make some preliminary calculations based on the degree of understanding of this model regarding the data or its representation. You can know which tasks are expected to have good results and which tasks will have less effective results. That is to say, the Unified Law has such a predictive function.
 
 ## Implementation
 
